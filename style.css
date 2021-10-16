@@ -1,6 +1,13 @@
+body {
+  background-color: whitesmoke;
+  color: #000000;
+  margin: 0px;
+}
+
 h1, #Contact {
   background-color: #424242;
   color: #c8f2ff;
+  padding: 0px 20px;
 }
 
 h1, #Presentation {
