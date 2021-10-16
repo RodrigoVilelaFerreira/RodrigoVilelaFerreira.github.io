@@ -8,15 +8,23 @@ body {
 h1, #Contact{
     background-color: rgb(66, 66, 66);
     color:#c8f2ff;
-    padding: 0px 20px;
-        
+}
 
+h5, #GitList, #Contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
 }
 
 h1, #Presentation {
     text-align: center;
 }
 
+h5 {
+    text-align: right;
+}
+
 a {
     color: rgb(136, 136, 248);
 }
+
