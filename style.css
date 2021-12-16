@@ -27,4 +27,12 @@ h5 {
 a {
   color: #8888f8;
 }
+
+#Menu {
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
