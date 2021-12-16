@@ -18,6 +18,7 @@ h5, #GitList, #Contact {
 
 h1, #Presentation {
   text-align: center;
+  margin-top: 0px;
 }
 
 h5 {
@@ -25,11 +26,14 @@ h5 {
 }
 
 a {
-  color: #8888f8;
+  color: #9552ff;
 }
 
 #Menu {
   text-align: center;
+  padding: 10px;
+  background-color: #ceedff;
+  margin-bottom: 0px;
 }
 
 li {
