@@ -42,3 +42,27 @@ a {
 li {
     padding: 10px;
 }
+
+.thumbnail:hover {
+    position:relative;
+    width:350px;
+    height:350px;
+    display:block;
+    z-index:999;
+}
+
+.thumbnail:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+    outline: 2px solid rgb(255, 0, 0);
+    background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
+}
+
+.link:hover {
+    position:relative;
+    font-size: 150%;
+}
+
+.link:active {
+    color: red;
+}
