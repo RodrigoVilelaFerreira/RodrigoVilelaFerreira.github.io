@@ -3,6 +3,7 @@ body {
   color: #0c0c0c;
   margin: 0px;
   font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Contact li {
@@ -25,17 +26,28 @@ h1, #Presentation {
   margin-top: 0px;
 }
 
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 h5 {
   text-align: right;
   font-size: medium;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 a {
   color: #8888f8;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 li {
   padding: 10px;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 /* Thumbnails and links Settings  */
@@ -86,12 +98,6 @@ li {
 }
 
 body {
-  padding-top: 60px;
-}
-
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
+  padding-top: 5%;
 }
 /*# sourceMappingURL=style.css.map */
