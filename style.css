@@ -5,6 +5,10 @@ body {
   font-size: large;
 }
 
+#Contact li {
+  padding: 1px;
+}
+
 h1, #Contact {
   background-color: #424242;
   color: #c8f2ff;
@@ -23,23 +27,18 @@ h1, #Presentation {
 
 h5 {
   text-align: right;
+  font-size: medium;
 }
 
 a {
   color: #8888f8;
 }
 
-#Menu {
-  text-align: center;
-  padding: 10px;
-  background-color: #ceedff;
-  margin-bottom: 0px;
-}
-
 li {
   padding: 10px;
 }
 
+/* Thumbnails and links Settings  */
 .thumbnail:hover {
   position: relative;
   width: 350px;
@@ -64,5 +63,35 @@ li {
 
 .link:active {
   color: red;
+}
+
+/* Menu Settings  */
+#Menu {
+  text-align: center;
+  padding: 10px;
+  background-color: #ceedff;
+  margin-bottom: 0px;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
