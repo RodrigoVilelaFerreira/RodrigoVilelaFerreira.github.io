@@ -18,6 +18,7 @@ h5, #GitList, #Contact {
 
 h1, #Presentation {
   text-align: center;
+  margin-top: 0px;
 }
 
 h5 {
