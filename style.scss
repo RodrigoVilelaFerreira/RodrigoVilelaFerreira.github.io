@@ -1,13 +1,36 @@
 body {
-    background-color: rgb(236, 236, 236);
+    background-image: url('images/walpaper2edited.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color: #000000;
     margin: 0px;
     font-size: large;
     font-family:Arial, Helvetica, sans-serif;
     display:block;
+    color: #ffffff;
 }
 
 
+
+.MenuBTN {
+    border: rgb(66, 66, 66);
+    color: rgb(84, 84, 247);
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #aaaaaa
+    
+  }
+
+button {
+    border-radius: 25px;
+    padding: 5px;
+}
 
 #Contact {
  li {
@@ -44,11 +67,13 @@ h4 {
 h5 {
     text-align: right;
     font-size: medium;
-    font-family: Verdana, Tahoma, sans-serif
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+
 }
 
 a {
-    color: rgb(0, 0, 255);
+    color: rgb(84, 84, 247);
     font-family:Verdana, Tahoma, sans-serif;
     text-decoration: none;
 }
@@ -61,13 +86,7 @@ li {
 
 /* Thumbnails and links Settings  */
 
-.thumbnail:hover {
-    position:relative;
-    width:350px;
-    height:350px;
-    display:block;
-    z-index:999;
-}
+
 
 .thumbnail:active {
     margin-left: 1px 1px 0;
@@ -105,7 +124,7 @@ a  {
 
 #Menu {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(206, 237, 255);
     margin-bottom: 0px;
 }
@@ -121,5 +140,15 @@ a  {
   
   body {
     padding-top: 50px;
+  }
+
+  #Portfolio3d{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    
+    text-align: center;
+    
+    list-style-position: inside;
   }
 
