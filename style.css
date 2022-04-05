@@ -147,4 +147,35 @@ body {
 #Portfolio3d li {
   padding: 10px;
 }
+
+/*Index Only vvvvvv*/
+#Content {
+  position: fixed;
+  top: 0;
+  background: rgba(66, 66, 66, 0.267);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#Index {
+  margin: 0px;
+  background: black;
+}
+
+header {
+  height: auto;
+  overflow: hidden;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Index Only ^^^^*/
 /*# sourceMappingURL=style.css.map */
