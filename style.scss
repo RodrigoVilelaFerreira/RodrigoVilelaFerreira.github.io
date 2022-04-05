@@ -14,8 +14,8 @@ body {
 
 
 .MenuBTN {
-    border: rgb(66, 66, 66);
-    color: rgb(84, 84, 247);
+    border: rgb(32, 32, 32);
+    color: rgb(112, 61, 253);
     
     text-align: center;
     text-decoration: none;
@@ -23,7 +23,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #aaaaaa
+    background-color: #dbdbdb
     
   }
 
@@ -39,8 +39,8 @@ button {
 }
 
 h1, #Contact{
-    background-color: rgb(66, 66, 66);
-    color:#c8f2ff;
+    background-color: rgb(32, 32, 32);
+    color:#ffffff;
 }
 
 h5, #GitList, #Contact {
@@ -70,10 +70,14 @@ h5 {
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 
+    a{
+        color: rgb(112, 61, 253);
+    }
+
 }
 
 a {
-    color: rgb(84, 84, 247);
+    color: rgb(61, 176, 253);
     font-family:Verdana, Tahoma, sans-serif;
     text-decoration: none;
 }
@@ -116,7 +120,7 @@ h4{
 }
 
 a  {
-        color: rgb(136, 136, 248);
+        color: rgb(61, 176, 253);
     }
 }
 
@@ -125,14 +129,14 @@ a  {
 #Menu {
     text-align: center;
     padding: 5px;
-    background-color: rgb(206, 237, 255);
+    background-color: rgb(32, 32, 32);
     margin-bottom: 0px;
 }
 
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(32, 32, 32);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -178,7 +182,7 @@ a  {
   }
   
   #Index{
-    margin:0px; background: black;
+    margin:0px; background-color: black;
   }
   
   header {

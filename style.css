@@ -12,15 +12,15 @@ body {
 }
 
 .MenuBTN {
-  border: #424242;
-  color: #5454f7;
+  border: #202020;
+  color: #703dfd;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #aaaaaa;
+  background-color: #dbdbdb;
 }
 
 button {
@@ -33,8 +33,8 @@ button {
 }
 
 h1, #Contact {
-  background-color: #424242;
-  color: #c8f2ff;
+  background-color: #202020;
+  color: #ffffff;
 }
 
 h5, #GitList, #Contact {
@@ -63,8 +63,12 @@ h5 {
   color: white;
 }
 
+h5 a {
+  color: #703dfd;
+}
+
 a {
-  color: #5454f7;
+  color: #3db0fd;
   font-family: Verdana, Tahoma, sans-serif;
   text-decoration: none;
 }
@@ -108,21 +112,21 @@ li {
 }
 
 #Contact a {
-  color: #8888f8;
+  color: #3db0fd;
 }
 
 /* Menu Settings  */
 #Menu {
   text-align: center;
   padding: 5px;
-  background-color: #ceedff;
+  background-color: #202020;
   margin-bottom: 0px;
 }
 
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #202020;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -169,7 +173,7 @@ body {
 
 #Index {
   margin: 0px;
-  background: black;
+  background-color: black;
 }
 
 header {
