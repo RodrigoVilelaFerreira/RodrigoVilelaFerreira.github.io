@@ -155,13 +155,17 @@ body {
   background: rgba(66, 66, 66, 0.267);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
 }
 
-#Content h1 {
-  background: none;
-  color: #c8f2ff;
+#DContent {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
 }
 
 #Index {
