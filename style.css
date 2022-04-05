@@ -159,6 +159,11 @@ body {
   text-align: center;
 }
 
+#Content h1 {
+  background: none;
+  color: #c8f2ff;
+}
+
 #Index {
   margin: 0px;
   background: black;
