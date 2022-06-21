@@ -75,4 +75,5 @@ footer {
   width: 100%;
   padding: 0px;
   text-align: center;
+	z-index: -1;
 }
