@@ -65,3 +65,13 @@ header {
 	justify-content: center;
 	margin-bottom: 2%;
 }
+
+footer {
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	bottom: 0;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px  3px #ff0000, 3px 3px  4px #000000;;
+}
