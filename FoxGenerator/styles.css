@@ -12,13 +12,14 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	height: 100vh;
 	margin: 0;
-	background: url(./images/SenkoAnalyze1000.png) center center no-repeat, url(./images/SenkoHype700.png) left bottom no-repeat, url(./images/SenkoHappy400.png) right bottom no-repeat, beige;
+	background: url(./images/SenkoAnalyze1000.png) center center no-repeat, url(./images/SenkoHype700.png) left center no-repeat, url(./images/SenkoHappy700.png) right bottom no-repeat, beige;
 	background-size: auto;
 }
 
 img {
-	max-width: 550px;
-	max-height: 400px;
+	max-width: 60vw;
+	max-height: 60vh;
+
 	border-radius: 30px;
 }
 
@@ -64,11 +65,3 @@ header {
 	justify-content: center;
 	margin-bottom: 2%;
 }
-
-@media only screen and (max-width: 600px) {
-    img {
-			max-width: 70vw;
-			max-height: 70vh;
-			border-radius: 30px;
-		}
-  }
